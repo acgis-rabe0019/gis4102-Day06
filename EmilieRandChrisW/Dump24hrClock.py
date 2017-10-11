@@ -11,4 +11,4 @@
 
 for hour in range (00,24):
     for minute in range(00,51,15):
-        print '{:2}:{:2}'.format(hour,minute)
+        print '{:02}:{:02}'.format(hour,minute)
