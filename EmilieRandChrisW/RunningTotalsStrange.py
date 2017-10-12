@@ -8,6 +8,10 @@
 # Copyright:   (c) chris 2017
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
+def main():
+    print strange_sum(3)
+    print strange_sum(154)
+    print strange_sum(4)
 
 def strange_sum(number):
     denominator = number
@@ -17,5 +21,7 @@ def strange_sum(number):
         denominator -= 1
     return sum
 
-print strange_sum(4)
 
+
+if __name__ == '__main__':
+    main()
